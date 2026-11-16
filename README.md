@@ -1,6 +1,12 @@
-# prizepicksapi (Python)
+# PrizePicks API for Python: prizepicksapi
 
-Python client for [prizepicksapi.com](https://prizepicksapi.com): live PrizePicks player-prop lines, goblin and demon tiers on each selection, recorded line history, the change feed, graded results and game logs. Standard library only, Python 3.9+.
+The PrizePicks API Python client. `pip install prizepicksapi` and read live PrizePicks projections (player-prop lines), goblin and demon tiers, line history and graded results from a script, notebook or bot. Keyless public endpoints work with no account; a free key (no card) unlocks the rest.
+
+[Website](https://prizepicksapi.com/?utm_source=github&utm_medium=readme&utm_campaign=prizepicksapi-python) | [Docs](https://prizepicksapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=prizepicksapi-python) | [Free API key](https://prizepicksapi.com/sign-up?utm_source=github&utm_medium=readme&utm_campaign=prizepicksapi-python) | [Pricing](https://prizepicksapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=prizepicksapi-python) | [All SDKs](https://prizepicksapi.com/sdks?utm_source=github&utm_medium=readme&utm_campaign=prizepicksapi-python)
+
+Also for prizepicksapi.com: [JavaScript: `npm install prizepicksapi`](https://github.com/prizepicksapi/prizepicksapi-js) | [MCP server: `npx -y prizepicksapi-mcp`](https://github.com/prizepicksapi/prizepicksapi-mcp)
+
+Python client for [prizepicksapi.com](https://prizepicksapi.com/?utm_source=github&utm_medium=readme&utm_campaign=prizepicksapi-python): live PrizePicks player-prop lines, goblin and demon tiers on each selection, recorded line history, the change feed, graded results and game logs. Standard library only, Python 3.9+.
 
 prizepicksapi.com is an independent service operated by Stunning Couches LLC. It is not affiliated with or endorsed by PrizePicks.
 
@@ -38,7 +44,7 @@ power 3 break-even 0.55032
 
 ## Live data
 
-Get a free key (100 credits a month, no card) at https://prizepicksapi.com/sign-up and export it:
+Get a free key (100 credits a month, no card) at https://prizepicksapi.com/sign-up?utm_source=github&utm_medium=readme&utm_campaign=prizepicksapi-python and export it:
 
 ```bash
 export PRIZEPICKS_API_KEY=...
@@ -105,7 +111,7 @@ except APIError as e:
 | `export_csv` | `/api/v1/export` | yes |
 | `request(path, params)`, `paginate(path, params)` | any GET endpoint | |
 
-Full reference: https://prizepicksapi.com/docs and https://prizepicksapi.com/openapi.json. Plans: https://prizepicksapi.com/pricing.
+Full reference: https://prizepicksapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=prizepicksapi-python and https://prizepicksapi.com/openapi.json. Plans: https://prizepicksapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=prizepicksapi-python.
 
 ## Tests
 
